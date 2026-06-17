@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lavadero profesional Humberto e Hijos en Canet d'en Berenguer. Limpieza interior, exterior, tapizado, encerado y pulido de faros. Mejor precio garantizado.">
+    <meta name="keywords" content="lavadero, Canet d'en Berenguer, limpieza coches, pulido faros, tapizado, encerado">
+    <meta name="author" content="Lavadero Humberto e Hijos">
+    <meta name="theme-color" content="#FF6B00">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Lavadero Humberto e Hijos | Canet d'en Berenguer">
+    <meta property="og:description" content="Lavadero profesional. Mejor precio garantizado en Canet d'en Berenguer.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lavadero-humberto.netlify.app">
+
+    <title>Lavadero Humberto e Hijos | Canet d'en Berenguer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <div class="nav-logo-icon"><i class="fas fa-car-wash"></i></div>
+                <div class="nav-logo-text">LAVADERO <span>HUMBERTO</span></div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#reserva">Reservar</a></li>
+                <li><a href="#ubicacion">Ubicacion</a></li>
+                <li><a href="#reserva" class="nav-cta"><i class="fab fa-whatsapp"></i> Reservar</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i> Mejor precio garantizado en Canet
+                </div>
+                <h1 class="hero-title">
+                    Tu coche como nuevo,<br>
+                    <span class="highlight">sin salir de Canet</span>
+                </h1>
+                <p class="hero-desc">
+                    Lavadero profesional en el Poligono Industrial de Canet d'en Berenguer. 
+                    Limpieza interior, exterior, tapizado, encerado y pulido de faros.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#reserva" class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i> Reservar ahora
+                    </a>
+                    <a href="#servicios" class="btn btn-outline">
+                        <i class="fas fa-list"></i> Ver servicios
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1520340356584-49f9206f2d78?w=600&h=450&fit=crop" 
+                         alt="Lavado de coche profesional en Canet d'en Berenguer" 
+                         class="hero-image"
+                         loading="eager">
+                    <div class="hero-float-card card-1">
+                        <div class="float-icon"><i class="fas fa-euro-sign"></i></div>
+                        <div class="float-text">
+                            <strong>Desde 25EUR</strong>
+                            <span>Limpieza completa</span>
+                        </div>
+                    </div>
+                    <div class="hero-float-card card-2">
+                        <div class="float-icon"><i class="fas fa-clock"></i></div>
+                        <div class="float-text">
+                            <strong>Rapido</strong>
+                            <span>En menos de 1h30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS BAR ===== -->
+    <div class="stats-bar">
+        <div class="stats-container">
+            <div class="stat-item reveal">
+                <div class="stat-number">+12</div>
+                <div class="stat-label">Anos de experiencia</div>
+            </div>
+            <div class="stat-item reveal">
+                <div class="stat-number">+5.000</div>
+                <div class="stat-label">Coches limpios</div>
+            </div>
+            <div class="stat-item reveal">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Clientes satisfechos</div>
+            </div>
+            <div class="stat-item reveal">
+                <div class="stat-number">25EUR</div>
+                <div class="stat-label">Precio desde</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section services" id="servicios">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-tag">Nuestros Servicios</span>
+                <h2 class="section-title">Todo lo que tu coche necesita</h2>
+                <p class="section-desc">Ofrecemos una amplia gama de servicios de limpieza y mantenimiento para tu vehiculo, con la maxima calidad y al mejor precio.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-spray-can"></i></div>
+                    <h3>Limpieza Exterior</h3>
+                    <p>Aclarado, espuma activa, quita insectos, proteccion de neumaticos, llantas y cristales. Tu coche brillara como el primer dia.</p>
+                    <span class="service-price">Desde 25EUR</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-chair"></i></div>
+                    <h3>Limpieza Interior</h3>
+                    <p>Aspirado completo, limpieza de alfombrillas, salpicadero, plasticos y maletero. El interior de tu coche como nuevo.</p>
+                    <span class="service-price">Incluido</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-couch"></i></div>
+                    <h3>Limpieza de Tapizado</h3>
+                    <p>Limpieza profunda de tapiceria de tela o piel. Eliminacion de manchas, olores y suciedad incrustada.</p>
+                    <span class="service-price">Desde 90EUR</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Encerado Manual</h3>
+                    <p>Proteccion y brillo extra para la carroceria de tu vehiculo con productos de alta calidad.</p>
+                    <span class="service-price">Consultar</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Pulido de Faros</h3>
+                    <p>Recupera la transparencia de tus faros oxidados o amarillentos. Mas seguridad en carretera.</p>
+                    <span class="service-price">15EUR c/u</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Lacado de Faros</h3>
+                    <p>Pulido + lacado protector para un acabado duradero y profesional en tus faros.</p>
+                    <span class="service-price">25EUR c/u</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PRICING ===== -->
+    <section class="section" id="precios">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-tag">Tarifas</span>
+                <h2 class="section-title">Precios claros, sin sorpresas</h2>
+                <p class="section-desc">Elige el servicio que mejor se adapte a tu vehiculo. Todos nuestros precios incluyen IVA.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <div class="pricing-header">
+                        <h3>Lavado Completo</h3>
+                        <div class="pricing-price">25EUR <span>desde</span></div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-list">
+                            <li>Coches pequenos <span class="price">25EUR</span></li>
+                            <li>Coches medianos <span class="price">30EUR</span></li>
+                            <li>Coches grandes (monovolumen, 4x4) <span class="price">35EUR</span></li>
+                            <li>Furgonetas <span class="price">40EUR</span></li>
+                            <li>Motos <span class="price">17EUR</span></li>
+                        </ul>
+                        <p class="pricing-includes">
+                            <strong>Incluye:</strong> Llantas, pasillos, espuma, aclarado, secado, cristales, aspirado, abrillantado y maletero.
+                        </p>
+                    </div>
+                </div>
+                <div class="pricing-card featured reveal">
+                    <div class="pricing-header">
+                        <h3>Servicios Especiales</h3>
+                        <div class="pricing-price">Consultar</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-list">
+                            <li>Limpieza de tapizado <span class="price">90EUR</span></li>
+                            <li>Reparacion de techos <span class="price">170EUR</span></li>
+                            <li>Reparacion de puertas <span class="price">35EUR c/u</span></li>
+                            <li>Reparacion de asientos <span class="price">P. presup.</span></li>
+                            <li>Pulido de faros <span class="price">15EUR c/u</span></li>
+                            <li>Pulido + lacado faros <span class="price">25EUR c/u</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BOOKING FORM ===== -->
+    <section class="section booking" id="reserva">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-tag">Reserva Online</span>
+                <h2 class="section-title">Reserva tu lavado por WhatsApp</h2>
+                <p class="section-desc">Rellena el formulario y te enviaremos un mensaje de confirmacion con tu cita. Es rapido y sencillo!</p>
+            </div>
+            <div class="booking-form-wrapper reveal">
+                <form id="bookingForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="nombre">Nombre completo <span class="required">*</span></label>
+                            <input type="text" class="form-input" id="nombre" name="nombre" placeholder="Ej: Juan Garcia" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="telefono">Telefono <span class="required">*</span></label>
+                            <input type="tel" class="form-input" id="telefono" name="telefono" placeholder="Ej: 612 345 678" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label" for="marca">Marca del vehiculo <span class="required">*</span></label>
+                            <input type="text" class="form-input" id="marca" name="marca" placeholder="Ej: Seat, BMW, Ford..." required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="modelo">Modelo del vehiculo <span class="required">*</span></label>
+                            <input type="text" class="form-input" id="modelo" name="modelo" placeholder="Ej: Ibiza, Serie 3, Focus..." required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="tipoLavado">Tipo de lavado <span class="required">*</span></label>
+                        <select class="form-select" id="tipoLavado" name="tipoLavado" required>
+                            <option value="" disabled selected>Selecciona un servicio...</option>
+                            <option value="Coche pequeno - 25EUR">Coche pequeno (Mini, C2, Smart...) - 25EUR</option>
+                            <option value="Coche mediano - 30EUR">Coche mediano - 30EUR</option>
+                            <option value="Coche grande - 35EUR">Coche grande (Monovolumen, 4x4) - 35EUR</option>
+                            <option value="Furgoneta - 40EUR">Furgoneta - 40EUR</option>
+                            <option value="Moto - 17EUR">Moto - 17EUR</option>
+                            <option value="Limpieza de tapizado - 90EUR">Limpieza de tapizado - 90EUR</option>
+                            <option value="Pulido de faros - 15EUR/u">Pulido de faros - 15EUR/u</option>
+                            <option value="Pulido y lacado de faros - 25EUR/u">Pulido y lacado de faros - 25EUR/u</option>
+                            <option value="Otro servicio">Otro servicio (especificar en comentarios)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="fechaHora">Fecha y hora preferida</label>
+                        <input type="datetime-local" class="form-input" id="fechaHora" name="fechaHora">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="comentarios">Comentarios adicionales</label>
+                        <textarea class="form-textarea" id="comentarios" name="comentarios" placeholder="Algo que debamos saber sobre tu vehiculo?"></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">
+                        <i class="fab fa-whatsapp"></i> Enviar reserva por WhatsApp
+                    </button>
+                    <p class="form-note"><i class="fas fa-shield-alt"></i> Tus datos solo se usaran para gestionar tu reserva. No compartimos informacion con terceros.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LOCATION ===== -->
+    <section class="section location" id="ubicacion">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-tag">Donde estamos</span>
+                <h2 class="section-title">Facil de encontrar</h2>
+                <p class="section-desc">Estamos en el Poligono Industrial de Canet d'en Berenguer, con acceso directo y parking disponible.</p>
+            </div>
+            <div class="location-grid">
+                <div class="location-info reveal">
+                    <h3>Visitamos en Canet d'en Berenguer</h3>
+                    <p>Aunque estamos en un poligono industrial, somos faciles de encontrar. Sigue las indicaciones y llegaras sin problema.</p>
+                    <div class="location-details">
+                        <div class="location-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Direccion</strong>
+                                <span>C/. La Molineta, 10 - Pol. Ind. Canet d'en Berenguer</span>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Telefono</strong>
+                                <span>659 772 833</span>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Horario</strong>
+                                <span>Lunes a Viernes: 09:00 - 14:00 / 16:00 - 19:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/maps/place/Lavadero+Manual+Punto+Rent/@39.6827118,-0.2277545,21z/data=!4m9!1m2!2m1!1sC.+la+Molineta,+10,+poligono+indrustrial+d%C3%A9n+berenger!3m5!1s0xd6015c2e095fc0b:0x1d3662977cf6a9b3!8m2!3d39.6827394!4d-0.2275916!16s%2Fg%2F11nsv_1mr6?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="btn btn-primary" 
+                       style="display:inline-flex;">
+                        <i class="fas fa-location-arrow"></i> Como llegar con Google Maps
+                    </a>
+                    <div class="location-alert">
+                        <i class="fas fa-info-circle"></i>
+                        <strong>Dificultad para encontrarnos?</strong>
+                        <p>Estamos en el Poligono Industrial de Canet d'en Berenguer. Si tienes problemas, llamanos al <strong>659 772 833</strong> y te guiaremos.</p>
+                    </div>
+                </div>
+                <div class="location-map reveal">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.1234567890123!2d-0.2277545!3d39.6827118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6015c2e095fc0b%3A0x1d3662977cf6a9b3!2sLavadero%20Manual%20Punto%20Rent!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ubicacion del Lavadero Humberto e Hijos">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HOURS ===== -->
+    <section class="section hours" id="horario">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <span class="section-tag">Horario</span>
+                <h2 class="section-title">Estamos aqui para ti</h2>
+                <p class="section-desc">Te atendemos de lunes a viernes en dos franjas horarias para tu comodidad.</p>
+            </div>
+            <div class="hours-grid">
+                <div class="hour-item active reveal">
+                    <span class="hour-day">Lunes</span>
+                    <span class="hour-time">09:00 - 14:00 / 16:00 - 19:00</span>
+                    <span class="hour-status open">ABIERTO</span>
+                </div>
+                <div class="hour-item active reveal">
+                    <span class="hour-day">Martes</span>
+                    <span class="hour-time">09:00 - 14:00 / 16:00 - 19:00</span>
+                    <span class="hour-status open">ABIERTO</span>
+                </div>
+                <div class="hour-item active reveal">
+                    <span class="hour-day">Miercoles</span>
+                    <span class="hour-time">09:00 - 14:00 / 16:00 - 19:00</span>
+                    <span class="hour-status open">ABIERTO</span>
+                </div>
+                <div class="hour-item active reveal">
+                    <span class="hour-day">Jueves</span>
+                    <span class="hour-time">09:00 - 14:00 / 16:00 - 19:00</span>
+                    <span class="hour-status open">ABIERTO</span>
+                </div>
+                <div class="hour-item active reveal">
+                    <span class="hour-day">Viernes</span>
+                    <span class="hour-time">09:00 - 14:00 / 16:00 - 19:00</span>
+                    <span class="hour-status open">ABIERTO</span>
+                </div>
+                <div class="hour-item closed reveal">
+                    <span class="hour-day">Sabado - Domingo</span>
+                    <span class="hour-time">Cerrado</span>
+                    <span class="hour-status closed">CERRADO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>LAVADERO <span>HUMBERTO</span> E HIJOS</h3>
+                <p>Lavadero profesional en Canet d'en Berenguer. Mas de 12 anos cuidando tu vehiculo con la maxima dedicacion y al mejor precio garantizado.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/34659772833" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Servicios</h4>
+                <ul class="footer-links">
+                    <li><a href="#servicios"><i class="fas fa-chevron-right"></i> Limpieza Exterior</a></li>
+                    <li><a href="#servicios"><i class="fas fa-chevron-right"></i> Limpieza Interior</a></li>
+                    <li><a href="#servicios"><i class="fas fa-chevron-right"></i> Tapizado</a></li>
+                    <li><a href="#servicios"><i class="fas fa-chevron-right"></i> Pulido de Faros</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces</h4>
+                <ul class="footer-links">
+                    <li><a href="#inicio"><i class="fas fa-chevron-right"></i> Inicio</a></li>
+                    <li><a href="#servicios"><i class="fas fa-chevron-right"></i> Servicios</a></li>
+                    <li><a href="#precios"><i class="fas fa-chevron-right"></i> Precios</a></li>
+                    <li><a href="#reserva"><i class="fas fa-chevron-right"></i> Reservar</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <div class="footer-contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>C/. La Molineta, 10<br>Pol. Ind. Canet d'en Berenguer</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>659 772 833</span>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Lun - Vie: 09:00-14:00 / 16:00-19:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2026 Lavadero Humberto e Hijos. Todos los derechos reservados. | Mejor precio garantizado en Canet d'en Berenguer.</p>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOAT ===== -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/34659772833" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Contactar por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-tooltip">Hablamos?</span>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
